@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="testnglesner.Lisener"/>
+
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="check First">
+        <classes>
+            <class name="TestCases.TC01_CheckSwipe"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Check second">
+        <classes>
+            <class name="TestCases.TC03_CheckDate"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Check Third">
+        <classes>
+            <class name="TestCases.TC02_CheckDragandDrop"></class>
+        </classes>
+    </test>
+
+</suite>
